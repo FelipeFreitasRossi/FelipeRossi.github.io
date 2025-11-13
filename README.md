@@ -58,7 +58,12 @@ Sou um desenvolvedor movido por desafios e pela busca de soluções que unam tec
 
 🌎 Onde me encontrar
 
-🔗 LinkedIn:     🌐 Portfólio:https://FelipeFreitasRossi.github.io/   📧 Email: lipeferossi@gmail.com  
+🔗 LinkedIn:https://www.linkedin.com/in/felipe-de-freitas-rossi-661122321/
+
+🌐 Portfólio:[https://FelipeFreitasRossi.github.io/ ](https://felipefreitasrossi.netlify.app)
+
+📧 Email:lipeferossi@gmail.com
+  
 
 💬 About me
 
