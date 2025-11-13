@@ -27,6 +27,7 @@
 🔗 LinkedIn:https://www.linkedin.com/in/felipe-de-freitas-rossi-661122321/
 
 🌐 Portfólio:[https://FelipeFreitasRossi.github.io/ ](https://felipefreitasrossi.netlify.app)
+
 📧 Email:lipeferossi@gmail.com
 
 💬 Sobre mim
