@@ -477,39 +477,6 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
-
-          {/* Seção de Garantias e Diferenciais */}
-          <div className="grid md:grid-cols-3 gap-8 mt-16">
-            <div className="text-center p-6 bg-green-50 rounded-2xl">
-              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="text-white" size={32} />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Garantia de 30 dias</h3>
-              <p className="text-gray-600">
-                Não ficou satisfeito? Devolvemos 100% do seu investimento
-              </p>
-            </div>
-
-            <div className="text-center p-6 bg-blue-50 rounded-2xl">
-              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Target className="text-white" size={32} />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Resultados mensuráveis</h3>
-              <p className="text-gray-600">
-                Acompanhe em tempo real o crescimento do seu negócio
-              </p>
-            </div>
-
-            <div className="text-center p-6 bg-purple-50 rounded-2xl">
-              <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="text-white" size={32} />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Implementação rápida</h3>
-              <p className="text-gray-600">
-                Comece a ver resultados em menos de 48 horas
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -527,12 +494,12 @@ export default function LandingPage() {
             <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-6">
               <Mail className="mx-auto mb-4" size={32} />
               <div className="font-semibold mb-2">Email</div>
-              <div className="text-blue-100">contato@empresapro.com</div>
+              <div className="text-blue-100">lipeferossi@gmail.com</div>
             </div>
             <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-6">
               <Phone className="mx-auto mb-4" size={32} />
               <div className="font-semibold mb-2">Telefone</div>
-              <div className="text-blue-100">(11) 9999-9999</div>
+              <div className="text-blue-100">(16) 99616-7381</div>
             </div>
             <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-6">
               <MapPin className="mx-auto mb-4" size={32} />
@@ -547,14 +514,14 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* RODAPÉ */}
       <footer className="py-12 px-6 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                  <img src="https://i.postimg.cc/wjdHbFLm/Evolua-(3).jpg" alt="" />                </div>
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                  <img src="https://i.postimg.cc/wjdHbFLm/Evolua-(3).jpg" alt="Foto Empresa" />                
+                </div>
                 <span className="text-xl font-bold">EmpresaPro</span>
               </div>
               <p className="text-gray-400">
@@ -585,36 +552,31 @@ export default function LandingPage() {
             <div>
               <h4 className="font-bold mb-4">Redes Sociais</h4>
               <div className="flex gap-4">
-                <a href="https://www.linkedin.com/in/felipe-de-freitas-rossi/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
+                <a href="https://www.linkedin.com/in/FelipeFreitasRossi/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
                   <Linkedin size={20} />
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition">
+                <a href="https://instagram.com/Fezinn_08" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition">
                   <Instagram size={20} />
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition">
-                  <Facebook size={20} />
-                </a>
+                <a href="https://github.com/FelipeFreitasRossi" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition">
+                  <Github size={20} />
+              </a>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400">© 2024 EmpresaPro. Todos os direitos reservados.</p>
+            <p className="text-gray-400">© 2025 EmpresaPro. Todos os direitos reservados.</p>
              
             {/* Informação do Desenvolvedor - Incluído e Corrigido no Footer */}
             <div className="flex items-center gap-2 text-gray-400">
               <span>Desenvolvedor:</span>
               <a 
-                href="https://www.linkedin.com/in/FelipeFreitasRossi/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-blue-400 transition font-semibold"
               >
                 Felipe de Freitas Rossi
-              </a>
-              <span className="text-gray-600">|</span>
-              <a href="https://github.com/FelipeFreitasRossi" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                <Github size={20} />
               </a>
             </div>
           </div>
