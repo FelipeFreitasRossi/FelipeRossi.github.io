@@ -33,7 +33,7 @@ export default function Contato() {
       // SUBSTITUA ESTES VALORES PELOS SEUS DO EMAILJS
       const result = await emailjs.send(
         'service_3jlwc8d',      // ← Coloque seu Service ID aqui
-        'template_45zydga',     // ← Coloque seu Template ID aqui
+        'template_wh3cg7o',     // ← Coloque seu Template ID aqui
         {
           nome: formData.nome,
           email: formData.email,
@@ -81,7 +81,7 @@ export default function Contato() {
       <section className="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            📞 Entre em Contato
+            Entre em Contato
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Vamos conversar sobre{' '}
@@ -106,11 +106,11 @@ export default function Contato() {
               <Mail size={28} />
             </div>
             <h3 className="font-bold mb-2">Email</h3>
-            <p className="text-gray-600 text-sm">contato@felipefreitas.dev</p>
+            <p className="text-gray-600 text-sm">lipeferossi@gmail.com</p>
           </a>
 
           <a 
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5516996167381"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center text-center p-6 rounded-xl hover:bg-green-50 transition group"
@@ -119,7 +119,7 @@ export default function Contato() {
               <MessageCircle size={28} />
             </div>
             <h3 className="font-bold mb-2">WhatsApp</h3>
-            <p className="text-gray-600 text-sm">(11) 99999-9999</p>
+            <p className="text-gray-600 text-sm">(16) 99616-73819</p>
           </a>
 
           <div className="flex flex-col items-center text-center p-6">
@@ -127,7 +127,7 @@ export default function Contato() {
               <MapPin size={28} />
             </div>
             <h3 className="font-bold mb-2">Localização</h3>
-            <p className="text-gray-600 text-sm">São Paulo, SP - Brasil</p>
+            <p className="text-gray-600 text-sm">São Carlos, SP - Brasil</p>
           </div>
 
           <div className="flex flex-col items-center text-center p-6">
@@ -135,7 +135,7 @@ export default function Contato() {
               <Clock size={28} />
             </div>
             <h3 className="font-bold mb-2">Horário</h3>
-            <p className="text-gray-600 text-sm">Seg - Sex: 9h às 18h</p>
+            <p className="text-gray-600 text-sm">Seg - Sex: 7h às 19h</p>
           </div>
         </div>
       </section>
