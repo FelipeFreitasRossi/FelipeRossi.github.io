@@ -3,6 +3,42 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Code2, Zap, CheckCircle, Users, TrendingUp, Award } from 'lucide-react';
 
 export default function Inicio() {
+  // SUAS 7 TECNOLOGIAS (altere aqui se quiser)
+  const tecnologias = [
+    'React', 
+    'TypeScript', 
+    'Node.js', 
+    'CSS', 
+    'JavaScript', 
+    'HTML', 
+    'Java',
+    'Python',
+    'React', 
+    'TypeScript', 
+    'Node.js', 
+    'CSS', 
+    'JavaScript', 
+    'HTML', 
+    'Java',
+    'Python',
+    'React', 
+    'TypeScript', 
+    'Node.js', 
+    'CSS', 
+    'JavaScript', 
+    'HTML', 
+    'Java',
+    'Python',
+    'React', 
+    'TypeScript', 
+    'Node.js', 
+    'CSS', 
+    'JavaScript', 
+    'HTML', 
+    'Java',
+    'Python'
+  ];
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -11,7 +47,7 @@ export default function Inicio() {
           {/* Lado Esquerdo */}
           <div className="space-y-6">
             <div className="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold">
-              Olá, eu sou Felipe de Freitas Rossi
+              👋 Olá, eu sou Felipe de Freitas Rossi
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
@@ -103,23 +139,35 @@ export default function Inicio() {
         </div>
       </section>
 
-      {/* Tecnologias */}
+      {/* Tecnologias - CARROSSEL INFINITO PERFEITO */}
       <section className="py-12 px-6 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto">
-          <p className="text-center text-gray-600 mb-8 font-semibold">Tecnologias que domino:</p>
+          <p className="text-center text-gray-600 mb-8 font-semibold">
+            Tecnologias que domino:
+          </p>
+          
           <div className="relative overflow-hidden">
             {/* Gradientes de fade nas bordas */}
             <div className="absolute left-0 top-0 bottom-0 w-20 md:w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
             <div className="absolute right-0 top-0 bottom-0 w-20 md:w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
             
-            {/* Container do carrossel */}
-            <div className="flex gap-8 md:gap-12 animate-scroll">
-              {['React', 'TypeScript', 'Node.js', 'CSS', 'JavaScript', 'HTML', 'Java', 'SQL', 'Git', 
-                'React', 'TypeScript', 'Node.js', 'CSS', 'JavaScript', 'HTML', 'Java', 'SQL', 'Git',
-                'React', 'TypeScript', 'Node.js', 'CSS', 'JavaScript', 'HTML', 'Java', 'SQL', 'Git'].map((tech, index) => (
+            {/* Container do carrossel - SÓ 2 CÓPIAS PARA LOOP PERFEITO */}
+            <div className="flex gap-12 animate-scroll-seamless">
+              {/* Primeira cópia das 7 tecnologias */}
+              {tecnologias.map((tech, index) => (
                 <div 
-                  key={index} 
-                  className="text-2xl md:text-3xl font-bold text-gray-400 whitespace-nowrap flex-shrink-0"
+                  key={`first-${index}`}
+                  className="text-3xl font-bold text-gray-400 hover:text-blue-600 whitespace-nowrap flex-shrink-0 transition-colors duration-300 cursor-default"
+                >
+                  {tech}
+                </div>
+              ))}
+              
+              {/* Segunda cópia (para loop infinito sem corte) */}
+              {tecnologias.map((tech, index) => (
+                <div 
+                  key={`second-${index}`}
+                  className="text-3xl font-bold text-gray-400 hover:text-blue-600 whitespace-nowrap flex-shrink-0 transition-colors duration-300 cursor-default"
                 >
                   {tech}
                 </div>
@@ -129,28 +177,23 @@ export default function Inicio() {
         </div>
         
         <style>{`
-@keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-100% / 3));
-    }
-  }
-  
-  .animate-scroll {
-    animation: scroll 10s linear infinite; /* ALTERADO: 10s para mobile */
-  }
-  
-  .animate-scroll:hover {
-    animation-play-state: paused;
-  }
-  
-  @media (min-width: 768px) {
-    .animate-scroll {
-      animation: scroll 40s linear infinite; /* Mantido 40s para telas maiores */
-    }
+          @keyframes scroll-seamless {
+            0% {
+              transform: translateX(+90%);
+            }
+            100% {
+              transform: translateX(-1000%);
+            }
           }
+          
+          /* VELOCIDADE: Mude 12s para o que quiser (menor = mais rápido) */
+          .animate-scroll-seamless {
+            animation: scroll-seamless 40s linear infinite;
+          }
+          
+          // .animate-scroll-seamless:hover {
+          //   animation-play-state: paused;
+          // }
         `}</style>
       </section>
 
@@ -271,7 +314,7 @@ export default function Inicio() {
               <ArrowRight size={20} />
             </Link>
             <a
-              href="https://wa.me/5511999999999?text=Olá! Vi seu portfólio e gostaria de um orçamento."
+              href="https://wa.me/5516996167381?text=Olá! Vi seu portfólio e gostaria de um orçamento."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition"
