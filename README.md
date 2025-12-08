@@ -24,9 +24,9 @@
 
 🌎 Onde me encontrar
 
-🔗 LinkedIn:https://www.linkedin.com/in/felipe-de-freitas-rossi-661122321/
+🔗 LinkedIn:https://www.linkedin.com/in/FelipeFreitasRossi/
 
-🌐 Portfólio:[https://TypeScript.FelipeRossi.github.io/ ](https://FelipeFRossi.netlify.app)
+🌐 Portfolio:[https://FelipeRossi.github.io/ ](https://FelipeFRossi.netlify.app)
 
 📧 Email:lipeferossi@gmail.com
 
@@ -58,9 +58,9 @@ Sou um desenvolvedor movido por desafios e pela busca de soluções que unam tec
 
 🌎 Where to find me
 
-🔗 LinkedIn:https://www.linkedin.com/in/felipe-de-freitas-rossi-661122321/
+🔗 LinkedIn:https://www.linkedin.com/in/FelipeFreitasRossi/
 
-🌐 Portfolio:[https://TypeScript.FelipeRossi.github.io/ ](https://FelipeFRossi.netlify.app)
+🌐 Portfolio:[https://FelipeRossi.github.io/ ](https://FelipeFRossi.netlify.app)
 
 📧 Email:lipeferossi@gmail.com
   
