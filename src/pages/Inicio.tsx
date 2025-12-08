@@ -13,6 +13,7 @@ export default function Inicio() {
     'HTML', 
     'Java',
     'Python',
+    'SQL',
     'React', 
     'TypeScript', 
     'Node.js', 
@@ -21,6 +22,7 @@ export default function Inicio() {
     'HTML', 
     'Java',
     'Python',
+    'SQL',
     'React', 
     'TypeScript', 
     'Node.js', 
@@ -29,6 +31,7 @@ export default function Inicio() {
     'HTML', 
     'Java',
     'Python',
+    'SQL',
     'React', 
     'TypeScript', 
     'Node.js', 
@@ -36,7 +39,8 @@ export default function Inicio() {
     'JavaScript', 
     'HTML', 
     'Java',
-    'Python'
+    'Python',
+    'SQL'
   ];
 
   return (
